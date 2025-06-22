@@ -8,8 +8,8 @@ export default function Navbar () {
                 <div className="flex flex-col md:flex-row items-center">
 
                     <NavLink to="/" className="flex items-center mb-5 md:mb-0">
-                            <span className="text-xl font-black text-gray-900 select-none">
-                                REST <span className="text-cyan-600"> Explorer </span>
+                            <span className="text-xl font-black text-gray-00 select-none">
+                                COUNTRY<span className="text-cyan-600">Explorer </span>
                             </span>
                     </NavLink>
 
