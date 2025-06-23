@@ -3,8 +3,8 @@ import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "RESTExplorer" },
-    { name: "Check out country data!", content: "Welcome to RESTExplorer." },
+    { title: "COUNTRYExplorer" },
+    { name: "Check out country data!", content: "Welcome to COUNTRYExplorer." },
   ];
 }
 
@@ -23,7 +23,7 @@ export default function Home() {
                 </span>
               </h1>
 
-              <p className="mx-auto text-base text-gray-600 sm:max-w-md lg:text-xl">
+              <p className="mx-auto text-base text-gray-600 sm:max-w-md lg:text-xl md:ml-0">
                 Discover details about every country around the world – from
                 capitals to regions!
               </p>
@@ -31,7 +31,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row sm:space-x-4">
                 <Link
                   to="/countries"
-                  className="flex items-center justify-center px-6 py-3 text-lg text-white bg-cyan-600 rounded-md hover:bg-orange-400"
+                  className="flex items-center justify-center px-6 py-3 text-lg text-white bg-cyan-600 rounded-md hover:bg-cyan-800"
                 >
                   Explore Now
                   <svg
@@ -51,7 +51,7 @@ export default function Home() {
 
                 <Link
                   to="/about"
-                  className="flex items-center px-6 py-3 text-gray-600 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600"
+                  className="flex items-center px-8 py-3 text-gray-600 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600"
                 >
                   Learn More
                 </Link>
@@ -62,7 +62,7 @@ export default function Home() {
           <div className="w-full md:w-1/2">
             <div className="overflow-hidden rounded-md shadow-xl">
               <img
-                src="https://image.winudf.com/v2/image/Ymx1ZWNhcC5pbWFnZXouYmVhdXRpZnVsX2NvdW50cmllc193YWxscGFwZXJzX3NjcmVlbl8wXzlpMW14OWl1/screen-0.webp?fakeurl=1&type=.webp"
+                src="app/images/city.png"
                 alt="Explore countries"
                 className="w-full h-auto"
               />
