@@ -10,7 +10,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div className="px-2 py-32 bg-white md:px-0">
+    <div className="px-6 py-32 bg-white md:px-0">
       <div className="container items-center max-w-6xl mx-auto xl:px-5">
         <div className="flex flex-wrap items-center sm:-mx-3">
           <div className="w-full md:w-1/2 md:px-3">
@@ -28,7 +28,7 @@ export default function Home() {
                 capitals to regions!
               </p>
 
-              <div className="flex flex-col sm:flex-row sm:space-x-4">
+              <div className="flex flex-col sm:flex-row gap-4 mb-6">
                 <Link
                   to="/countries"
                   className="flex items-center justify-center px-6 py-3 text-lg text-white bg-cyan-600 rounded-md hover:bg-cyan-800"
