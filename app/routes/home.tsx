@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import type { Route } from "./+types/home";
+import cityImage from "../images/city.png";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -62,7 +63,7 @@ export default function Home() {
           <div className="w-full md:w-1/2">
             <div className="overflow-hidden rounded-md shadow-xl">
               <img
-                src="app/images/city.png"
+                src={cityImage}
                 alt="Explore countries"
                 className="w-full h-auto"
               />
