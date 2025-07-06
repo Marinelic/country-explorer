@@ -63,8 +63,8 @@ export default function Home() {
           <div className="w-full md:w-1/2">
             <div className="overflow-hidden rounded-md shadow-xl">
               <img
-                src="https://image.winudf.com/v2/image/Ymx1ZWNhcC5pbWFnZXouYmVhdXRpZnVsX2NvdW50cmllc193YWxscGFwZXJzX3NjcmVlbl8wXzlpMW14OWl1/screen-0.webp?fakeurl=1&type=.webp"
-                alt="Explore countries"
+               src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format& fit=crop&w=800&q=80" 
+                alt="Dubrovnik"
                 className="w-full h-auto"
               />
             </div>
