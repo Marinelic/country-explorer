@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import type { Route } from "./+types/home";
-import cityImage from "../images/city.png";
+/* import cityImage from "../images/city.png"; */
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="w-full md:w-1/2">
             <div className="overflow-hidden rounded-md shadow-xl">
               <img
-                src={cityImage}
+                src="https://image.winudf.com/v2/image/Ymx1ZWNhcC5pbWFnZXouYmVhdXRpZnVsX2NvdW50cmllc193YWxscGFwZXJzX3NjcmVlbl8wXzlpMW14OWl1/screen-0.webp?fakeurl=1&type=.webp"
                 alt="Explore countries"
                 className="w-full h-auto"
               />
